@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "header",
+  "info": {
+    "singularName": "cabecera",
+    "pluralName": "header",
+    "displayName": "Cabecera",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "enlaces_publicos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "enlaces.enlace",
+      "required": true
+    },
+    "enlaces_privados": {
+      "type": "component",
+      "repeatable": true,
+      "component": "enlaces.enlace",
+      "required": true
+    },
+    "enlaces_manejar_sesion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "enlaces.enlace",
+      "required": true
+    },
+    "enlaces_privados_manejar_sesion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "enlaces.enlace",
+      "required": true
+    }
+  }
+}

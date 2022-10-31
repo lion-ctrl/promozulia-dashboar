@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_page",
+  "info": {
+    "singularName": "pagina-servicios",
+    "pluralName": "services-page",
+    "displayName": "Pagina-servicios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "text",
+      "required": true
+    },
+    "imagen_banner_servicios": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sub_titulo": {
+      "type": "text",
+      "required": true
+    },
+    "tarjetas_servicios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarjetas.tarjeta",
+      "required": true
+    }
+  }
+}

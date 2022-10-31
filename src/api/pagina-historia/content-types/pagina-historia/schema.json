@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_historias",
+  "info": {
+    "singularName": "pagina-historia",
+    "pluralName": "pagina-historias",
+    "displayName": "Pagina-historia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 2
+    },
+    "tarjetas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarjetas.tarjetas-historia",
+      "required": true
+    },
+    "titulo_banner": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 2
+    },
+    "tarjetas_logros": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarjetas.tarjetas-historia",
+      "required": true
+    },
+    "titulo_logros": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 2
+    }
+  }
+}

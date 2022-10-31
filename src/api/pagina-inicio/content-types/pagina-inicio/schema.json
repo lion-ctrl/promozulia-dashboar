@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page",
+  "info": {
+    "singularName": "pagina-inicio",
+    "pluralName": "home-page",
+    "displayName": "Pagina-inicio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carusel_inicio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carusel.auto-carusel",
+      "required": true
+    },
+    "titulo": {
+      "type": "text",
+      "required": true
+    },
+    "sub_titulo": {
+      "type": "text",
+      "required": true
+    },
+    "imagen_banner_sub_titulo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "texto_banner_contacto": {
+      "type": "text",
+      "required": true
+    },
+    "texto_boton_contacto": {
+      "type": "string",
+      "required": true
+    },
+    "imagen_banner_contacto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "tarjetas_inicio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarjetas.tarjeta",
+      "required": true
+    },
+    "carusel_sectores": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carusel.carusel",
+      "required": true
+    }
+  }
+}

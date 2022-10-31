@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_enlaces_enlaces",
+  "info": {
+    "displayName": "enlace",
+    "icon": "arrow-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "navegacion": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "maxLength": 50,
+      "minLength": 1
+    }
+  }
+}

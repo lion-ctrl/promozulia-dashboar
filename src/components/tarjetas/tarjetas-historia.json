@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_tarjetas_tarjetas_historias",
+  "info": {
+    "displayName": "Tarjetas-sin-imagen",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fecha": {
+      "type": "date",
+      "required": false
+    },
+    "titulo": {
+      "type": "string",
+      "maxLength": 50,
+      "minLength": 2,
+      "required": true
+    },
+    "contenido": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_tarjetas_tarjetas",
+  "info": {
+    "displayName": "tarjeta",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "maxLength": 100,
+      "minLength": 5
+    },
+    "texto": {
+      "type": "text"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

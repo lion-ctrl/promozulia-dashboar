@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_carusel_auto_carusels",
+  "info": {
+    "displayName": "AutoCarusel",
+    "icon": "truck-loading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "maxLength": 255,
+      "minLength": 5,
+      "required": true
+    },
+    "texto": {
+      "type": "string",
+      "required": false,
+      "maxLength": 255,
+      "minLength": 5
+    },
+    "imagen_de_fondo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

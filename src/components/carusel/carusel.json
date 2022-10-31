@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_carusel_carusels",
+  "info": {
+    "displayName": "Carusel",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "texto": {
+      "type": "string",
+      "maxLength": 100,
+      "minLength": 2
+    }
+  }
+}

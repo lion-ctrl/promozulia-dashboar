@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer",
+  "info": {
+    "singularName": "pie-pagina",
+    "pluralName": "footer",
+    "displayName": "Pie-pagina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "titulo_direccion": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "text",
+      "required": true
+    },
+    "titulo_numero_telefono": {
+      "type": "string",
+      "required": true
+    },
+    "numero_telefono": {
+      "type": "string",
+      "required": true
+    },
+    "copyright": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
