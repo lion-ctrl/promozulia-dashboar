@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_tarjetas_tarjeta_historias",
+  "info": {
+    "displayName": "tarjeta-editor",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "text"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "contenido": {
+      "type": "customField",
+      "options": {
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
