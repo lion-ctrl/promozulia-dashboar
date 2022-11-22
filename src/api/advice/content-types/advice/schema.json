@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advices",
+  "info": {
+    "singularName": "advice",
+    "pluralName": "advices",
+    "displayName": "Consejo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "text",
+      "required": true
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contenido": {
+      "type": "customField",
+      "options": {
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "slug": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
