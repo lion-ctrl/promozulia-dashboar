@@ -43,12 +43,6 @@
       "repeatable": true,
       "component": "tarjetas.tarjeta",
       "required": true
-    },
-    "programas_proyectos": {
-      "type": "component",
-      "repeatable": true,
-      "required": true,
-      "component": "tarjetas.tarjeta"
     }
   }
 }
