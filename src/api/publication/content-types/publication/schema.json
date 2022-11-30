@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "advices",
+  "collectionName": "publications",
   "info": {
-    "singularName": "advice",
-    "pluralName": "advices",
-    "displayName": "Consejo",
-    "description": ""
+    "singularName": "publication",
+    "pluralName": "publications",
+    "displayName": "Publicacion"
   },
   "options": {
     "draftAndPublish": true
@@ -20,12 +19,12 @@
       "type": "date"
     },
     "imagen": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     },
     "contenido": {
       "type": "customField",

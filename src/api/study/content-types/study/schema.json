@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "advices",
+  "collectionName": "studies",
   "info": {
-    "singularName": "advice",
-    "pluralName": "advices",
-    "displayName": "Consejo",
+    "singularName": "study",
+    "pluralName": "studies",
+    "displayName": "Estudio",
     "description": ""
   },
   "options": {

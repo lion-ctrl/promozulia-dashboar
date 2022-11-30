@@ -4,19 +4,14 @@
   "info": {
     "singularName": "pagina-inicio",
     "pluralName": "home-page",
-    "displayName": "Pagina-inicio"
+    "displayName": "Pagina-inicio",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "carusel_inicio": {
-      "type": "component",
-      "repeatable": true,
-      "component": "carusel.auto-carusel",
-      "required": true
-    },
     "titulo": {
       "type": "text",
       "required": true
@@ -26,12 +21,12 @@
       "required": true
     },
     "imagen_banner_sub_titulo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "texto_banner_contacto": {
       "type": "text",
@@ -42,12 +37,12 @@
       "required": true
     },
     "imagen_banner_contacto": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "tarjetas_inicio": {
       "type": "component",
@@ -58,7 +53,13 @@
     "carusel_sectores": {
       "type": "component",
       "repeatable": true,
-      "component": "carusel.carusel",
+      "component": "tarjetas.tarjeta",
+      "required": true
+    },
+    "carusel_inicio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarjetas.tarjeta",
       "required": true
     }
   }

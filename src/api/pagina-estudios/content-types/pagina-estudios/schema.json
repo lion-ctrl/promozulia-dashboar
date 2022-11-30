@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "studies_page",
+  "info": {
+    "singularName": "pagina-estudios",
+    "pluralName": "studies-page",
+    "displayName": "Pagina-estudios"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo_estudios": {
+      "type": "string",
+      "required": true
+    },
+    "titulo_publicaciones": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
